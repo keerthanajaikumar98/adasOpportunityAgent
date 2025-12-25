@@ -1,0 +1,26 @@
+# Core
+anthropic>=0.40.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Web Scraping & API
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+aiohttp>=3.9.0
+
+# Document Generation
+python-docx>=1.1.0
+reportlab>=4.0.0
+
+# Utilities
+tqdm>=4.65.0  # Progress bars
+retry>=0.9.2   # Retry logic

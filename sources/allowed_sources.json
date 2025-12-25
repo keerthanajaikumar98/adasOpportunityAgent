@@ -1,0 +1,78 @@
+{
+    "academic": {
+      "ieee": {
+        "domains": ["ieee.org", "ieeexplore.ieee.org"],
+        "credibility": "high",
+        "types": ["conference_paper", "journal_article"]
+      },
+      "arxiv": {
+        "domains": ["arxiv.org"],
+        "credibility": "medium",
+        "types": ["preprint"]
+      },
+      "acm": {
+        "domains": ["acm.org", "dl.acm.org"],
+        "credibility": "high",
+        "types": ["conference_paper", "journal_article"]
+      },
+      "sae": {
+        "domains": ["sae.org"],
+        "credibility": "high",
+        "types": ["technical_paper", "standard"]
+      }
+    },
+    "financial_research": {
+      "jpmorgan": {
+        "domains": ["jpmorgan.com", "jpmorganchase.com"],
+        "credibility": "high",
+        "types": ["analyst_report", "market_outlook"]
+      },
+      "goldman_sachs": {
+        "domains": ["goldmansachs.com", "gs.com"],
+        "credibility": "high",
+        "types": ["analyst_report", "market_research"]
+      },
+      "morgan_stanley": {
+        "domains": ["morganstanley.com"],
+        "credibility": "high",
+        "types": ["analyst_report", "industry_report"]
+      }
+    },
+    "industry": {
+      "semiconductor_vendors": {
+        "nvidia": ["nvidia.com"],
+        "qualcomm": ["qualcomm.com"],
+        "ti": ["ti.com"],
+        "nxp": ["nxp.com"],
+        "infineon": ["infineon.com"],
+        "intel": ["intel.com"],
+        "amd": ["amd.com"],
+        "renesas": ["renesas.com"],
+        "stmicro": ["st.com"]
+      },
+      "oems": {
+        "tesla": ["tesla.com"],
+        "gm": ["gm.com"],
+        "ford": ["ford.com"],
+        "rivian": ["rivian.com"],
+        "lucid": ["lucidmotors.com"]
+      },
+      "tier1": {
+        "bosch": ["bosch.com"],
+        "continental": ["continental.com"],
+        "aptiv": ["aptiv.com"],
+        "denso": ["denso.com"]
+      }
+    },
+    "excluded_patterns": [
+      "blog.",
+      "/blog/",
+      "medium.com",
+      "linkedin.com/pulse",
+      "twitter.com",
+      "x.com",
+      "facebook.com",
+      "reddit.com",
+      "quora.com"
+    ]
+  }
