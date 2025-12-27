@@ -3,13 +3,13 @@
 from typing import Dict, Any
 from agents import BaseAgent 
 
-class TrendsSimplification Agent(BaseAgent):
+class TrendsSimplificationAgent(BaseAgent):
     # Identifies trends and translates to plain language with silicon implications
 
     def __init__(self, api_client):
         super().__init__("TrendsSimplificationAgent", api_client)
 
-    async def execute(self, context, Dict[str, Any]) -> Dict[str, Any]:
+    async def execute(self, context: Dict[str, Any]) -> Dict[str, Any]:
         """
         Identify 5-7 key trends in ADAS with jargon-free explanations.
         

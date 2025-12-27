@@ -2,7 +2,7 @@
 
 from typing import Dict, Any, List
 from agents import BaseAgent 
-import Logging 
+import logging 
 
 class MarketSizeAgent(BaseAgent):
     # Specializes in market size analysis and forecasting 

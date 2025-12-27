@@ -2,6 +2,7 @@
 .env
 *.env
 .env.local
+.streamlit/secrets.toml
 
 # Python
 __pycache__/
@@ -13,13 +14,15 @@ venv/
 env/
 ENV/
 
-# Data and outputs (optional - remove if you want to track outputs)
+# Data - Keep raw/processed ignored, but ALLOW outputs/reports for dashboard
 data/raw/*
 data/processed/*
-outputs/reports/*
-outputs/visualizations/*
 !data/.gitkeep
+
+# Outputs - Allow reports for dashboard
+outputs/visualizations/*
 !outputs/.gitkeep
+# We want to commit outputs/reports/ for the dashboard to display
 
 # Logs
 logs/
@@ -35,6 +38,5 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Temporary files
-*.tmp
-*.bak
+# Archives
+archives/

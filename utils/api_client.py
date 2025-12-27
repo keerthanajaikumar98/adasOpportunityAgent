@@ -3,13 +3,16 @@
 import os 
 from anthropic import Anthropic
 import logging
-from trying import List, Dict, Any 
+from typing import List, Dict, Any 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class AnthropicClient: 
     # Wrapper for Anthropic API calls 
 
     def __init__(self): 
-        api_key=os.getenv('ANTRHOPIC_API_KEY')
+        api_key=os.getenv('ANTHROPIC_API_KEY')
         if not api_key: 
             raise ValueError("ANTHROPIC_API_KEY not found in environment")
 

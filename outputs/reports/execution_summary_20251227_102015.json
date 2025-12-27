@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "execution_time_seconds": 378.373518,
+    "start_time": "2025-12-27T10:20:15.122206",
+    "end_time": "2025-12-27T10:26:33.495724",
+    "agents_executed": 10,
+    "agents_failed": 0
+  },
+  "execution_log": [
+    {
+      "agent": "source_discovery",
+      "timestamp": "2025-12-27T10:20:58.796013",
+      "success": true,
+      "confidence": "High"
+    },
+    {
+      "agent": "market_size",
+      "timestamp": "2025-12-27T10:21:21.808253",
+      "success": true,
+      "confidence": "High"
+    },
+    {
+      "agent": "trends_simplification",
+      "timestamp": "2025-12-27T10:21:57.875039",
+      "success": true,
+      "confidence": "High"
+    },
+    {
+      "agent": "competitive_landscape",
+      "timestamp": "2025-12-27T10:22:45.827117",
+      "success": true,
+      "confidence": "High"
+    },
+    {
+      "agent": "pain_point_extraction",
+      "timestamp": "2025-12-27T10:23:40.297732",
+      "success": true,
+      "confidence": "High"
+    },
+    {
+      "agent": "compute_architecture",
+      "timestamp": "2025-12-27T10:24:01.057551",
+      "success": true,
+      "confidence": "High"
+    },
+    {
+      "agent": "bottleneck_diagnosis",
+      "timestamp": "2025-12-27T10:24:53.007897",
+      "success": true,
+      "confidence": "High"
+    },
+    {
+      "agent": "gap_analysis",
+      "timestamp": "2025-12-27T10:25:31.483890",
+      "success": true,
+      "confidence": "High"
+    },
+    {
+      "agent": "positioning_messaging",
+      "timestamp": "2025-12-27T10:26:32.901843",
+      "success": true,
+      "confidence": "High"
+    },
+    {
+      "agent": "visualization_reporting",
+      "timestamp": "2025-12-27T10:26:33.495695",
+      "success": true,
+      "confidence": "Unknown"
+    }
+  ],
+  "results_files": {
+    "source_discovery": "source_discovery_result_20251227_102015.json",
+    "market_size": "market_size_result_20251227_102015.json",
+    "trends_simplification": "trends_simplification_result_20251227_102015.json",
+    "competitive_landscape": "competitive_landscape_result_20251227_102015.json",
+    "pain_point_extraction": "pain_point_extraction_result_20251227_102015.json",
+    "compute_architecture": "compute_architecture_result_20251227_102015.json",
+    "bottleneck_diagnosis": "bottleneck_diagnosis_result_20251227_102015.json",
+    "gap_analysis": "gap_analysis_result_20251227_102015.json",
+    "positioning_messaging": "positioning_messaging_result_20251227_102015.json",
+    "visualization_reporting": "visualization_reporting_result_20251227_102015.json"
+  }
+}
