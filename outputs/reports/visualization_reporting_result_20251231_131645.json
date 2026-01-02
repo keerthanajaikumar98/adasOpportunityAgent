@@ -1,0 +1,10 @@
+{
+  "outputs": {
+    "market_size_viz": "outputs/visualizations/market_size_20251231_132255.png",
+    "trends_document": "outputs/reports/trends_analysis_20251231_132255.json",
+    "competitive_landscape": "outputs/reports/competitive_landscape_20251231_132255.json",
+    "gap_analysis_report": "outputs/reports/gap_analysis_20251231_132255.json",
+    "executive_summary": "outputs/reports/executive_summary_20251231_132255.json"
+  },
+  "timestamp": "20251231_132255"
+}

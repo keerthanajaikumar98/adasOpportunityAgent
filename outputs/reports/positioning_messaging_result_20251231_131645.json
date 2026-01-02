@@ -1,0 +1,309 @@
+{
+  "opportunities": [
+    {
+      "opportunity_name": "4D Radar Signal Processing ASIC",
+      "problem_statement": {
+        "customer_pain": "Next-generation 4D imaging radars demand 10x more computational power than current automotive SoCs can deliver, forcing OEMs into power-hungry CPU/GPU implementations that consume 5-10x more power and can't achieve real-time processing",
+        "market_context": "4D radar is becoming mandatory for L3+ autonomy by 2025, but current solutions create system-level bottlenecks that prevent mass deployment",
+        "urgency": "OEMs are locked into inefficient architectures today - first-mover advantage goes to whoever solves the power-performance gap now"
+      },
+      "solution_positioning": {
+        "what_it_is": "The industry's first automotive-grade ASIC purpose-built for 4D radar processing with dedicated FFT engines and real-time point cloud generation",
+        "how_its_different": "Delivers 10-20x better power efficiency than GPU implementations while processing millions of radar points in real-time with <10ms latency",
+        "why_now": "4D radar adoption is accelerating but constrained by processing limitations - we're removing the bottleneck"
+      },
+      "usp": {
+        "core_differentiation": "Only automotive-grade solution that enables true real-time 4D radar processing at scale",
+        "defensible_advantages": [
+          "Hardware-optimized FFT processing chains",
+          "Automotive functional safety built-in",
+          "10x power efficiency advantage"
+        ],
+        "proof_points": [
+          "AEC-Q100 qualified",
+          "<10ms latency demonstrated",
+          "5-8W total system power vs 50W+ for GPU solutions"
+        ]
+      },
+      "competitive_positioning": {
+        "versus_incumbents": "Traditional automotive SoCs force compromises between performance and power - we eliminate the tradeoff",
+        "versus_alternatives": "GPU implementations are power-hungry and can't meet real-time requirements; FPGAs lack automotive qualification and cost too much",
+        "competitive_moats": [
+          "Automotive-specific architecture",
+          "Built-in functional safety",
+          "Specialized radar DSP expertise"
+        ]
+      },
+      "value_proposition": {
+        "for_oems": [
+          "Enable L3+ features without system redesign",
+          "Reduce total system cost by 40%",
+          "Accelerate time-to-market by 12-18 months"
+        ],
+        "for_tier1s": [
+          "Simplified integration vs multi-chip solutions",
+          "Complete reference designs and software stack",
+          "Automotive qualification handled"
+        ],
+        "for_end_users": [
+          "More accurate object detection in all weather",
+          "Enhanced safety through faster response times",
+          "Better parking and maneuvering assistance"
+        ]
+      },
+      "technical_differentiation": {
+        "architecture": "Specialized radar signal processing pipeline with dedicated FFT engines optimized for 1024-2048 point transforms",
+        "performance": "Real-time processing of 4D point clouds with 10-20x better power efficiency than GPU implementations",
+        "integration": "Single-chip solution eliminates multi-SoC complexity and reduces BOM cost by 50%"
+      },
+      "messaging_pillars": [
+        {
+          "pillar": "Unlock 4D Radar's Full Potential",
+          "supporting_points": [
+            "First real-time processing solution",
+            "10x computational improvement",
+            "Enables new safety features"
+          ],
+          "target_audience": "Executive"
+        },
+        {
+          "pillar": "Purpose-Built for Automotive",
+          "supporting_points": [
+            "AEC-Q100 qualified",
+            "ASIL-D functional safety",
+            "Automotive supply chain ready"
+          ],
+          "target_audience": "OEM"
+        },
+        {
+          "pillar": "Eliminate Integration Complexity",
+          "supporting_points": [
+            "Single-chip solution",
+            "Complete reference design",
+            "Proven software stack"
+          ],
+          "target_audience": "Tier1"
+        },
+        {
+          "pillar": "Breakthrough Power Efficiency",
+          "supporting_points": [
+            "5-8W vs 50W+ alternatives",
+            "Hardware-optimized processing",
+            "Thermal management solved"
+          ],
+          "target_audience": "Technical"
+        }
+      ],
+      "elevator_pitch": "We've created the automotive industry's first purpose-built 4D radar processor that delivers 10x better power efficiency than GPU solutions while enabling real-time processing of millions of radar points - unlocking the full potential of next-generation ADAS systems.",
+      "tagline_options": [
+        "Radar Processing. Perfected.",
+        "See Beyond. Process Everything.",
+        "4D Radar. Real Performance."
+      ]
+    },
+    {
+      "opportunity_name": "Multi-Camera ISP Memory-Optimized ASIC",
+      "problem_statement": {
+        "customer_pain": "Processing 8-12 high-resolution cameras simultaneously creates memory bandwidth bottlenecks exceeding 40 Gbps that force frame drops and prevent real-time 360\u00b0 perception for L3 automation",
+        "market_context": "Multi-camera systems are essential for L2+ ADAS but current architectures can't scale beyond 4-6 cameras without performance degradation",
+        "urgency": "Competition is intensifying around camera count and resolution - memory bottlenecks are preventing differentiation"
+      },
+      "solution_positioning": {
+        "what_it_is": "A distributed ISP architecture with dedicated memory channels and compression that processes 8x 4K cameras simultaneously without frame drops",
+        "how_its_different": "Eliminates memory contention through dedicated per-camera processing with intelligent compression and data flow optimization",
+        "why_now": "8K cameras are becoming viable but existing architectures can't handle the data throughput - we solve the scaling problem"
+      },
+      "usp": {
+        "core_differentiation": "Only solution that scales camera processing without memory bottlenecks",
+        "defensible_advantages": [
+          "Distributed memory architecture",
+          "Hardware-based compression",
+          "50% lower system cost vs alternatives"
+        ],
+        "proof_points": [
+          "8x 4K @ 30fps demonstrated",
+          "Zero frame drops guaranteed",
+          "40+ Gbps sustained throughput"
+        ]
+      },
+      "competitive_positioning": {
+        "versus_incumbents": "Standard automotive SoCs hit memory walls at 4-6 cameras; we scale to 12+ cameras seamlessly",
+        "versus_alternatives": "Multi-SoC solutions double system cost and complexity; dedicated ISPs lack automotive integration",
+        "competitive_moats": [
+          "Proprietary memory architecture",
+          "Mass-market cost structure",
+          "Automotive-qualified pipeline"
+        ]
+      },
+      "value_proposition": {
+        "for_oems": [
+          "Scale to 12+ cameras without redesign",
+          "50% lower system cost vs multi-SoC",
+          "Differentiate on camera count and quality"
+        ],
+        "for_tier1s": [
+          "Simplified wiring and integration",
+          "Proven automotive qualification",
+          "Complete camera ecosystem support"
+        ],
+        "for_end_users": [
+          "Crystal clear 360\u00b0 vision",
+          "Better night and weather performance",
+          "More accurate blind spot detection"
+        ]
+      },
+      "technical_differentiation": {
+        "architecture": "Distributed ISP with dedicated memory channels per camera eliminating shared memory contention",
+        "performance": "Sustained 40+ Gbps throughput with zero frame drops across 8-12 simultaneous camera streams",
+        "integration": "Single-chip replaces multiple SoCs reducing BOM cost, power, and thermal complexity"
+      },
+      "messaging_pillars": [
+        {
+          "pillar": "See Everything, Drop Nothing",
+          "supporting_points": [
+            "Zero frame drops guaranteed",
+            "8-12 camera simultaneous processing",
+            "40+ Gbps sustained throughput"
+          ],
+          "target_audience": "Technical"
+        },
+        {
+          "pillar": "Scale Without Compromise",
+          "supporting_points": [
+            "Add cameras without performance degradation",
+            "Future-proof architecture",
+            "Supports up to 8K resolution"
+          ],
+          "target_audience": "OEM"
+        },
+        {
+          "pillar": "Half the Cost, Double the Capability",
+          "supporting_points": [
+            "50% lower system cost",
+            "Single-chip vs multi-SoC",
+            "Reduced integration complexity"
+          ],
+          "target_audience": "Executive"
+        },
+        {
+          "pillar": "Automotive-First Design",
+          "supporting_points": [
+            "Built for automotive workflows",
+            "Proven supply chain",
+            "Complete ecosystem support"
+          ],
+          "target_audience": "Tier1"
+        }
+      ],
+      "elevator_pitch": "We've solved the fundamental memory bottleneck limiting multi-camera ADAS systems - our distributed ISP architecture processes 8-12 high-resolution cameras simultaneously at half the cost of multi-SoC alternatives, with zero frame drops guaranteed.",
+      "tagline_options": [
+        "See More. Process Everything.",
+        "Multi-Camera. Made Simple.",
+        "Vision Without Limits."
+      ]
+    },
+    {
+      "opportunity_name": "Edge AI Sensor Fusion Accelerator",
+      "problem_statement": {
+        "customer_pain": "Heterogeneous sensor fusion requires specialized probabilistic computing that current GPU architectures handle inefficiently, increasing false positive/negative rates by 20-30% and limiting ADAS reliability",
+        "market_context": "L3+ autonomy demands precise sensor fusion but existing solutions can't deliver the accuracy and reliability required for safety-critical decisions",
+        "urgency": "Regulatory approval for L3+ systems hinges on demonstrable safety improvements - current fusion accuracy isn't good enough"
+      },
+      "solution_positioning": {
+        "what_it_is": "The first hardware accelerator purpose-built for automotive sensor fusion with dedicated Kalman filter engines and probabilistic reasoning units",
+        "how_its_different": "Delivers 3-5x better power efficiency for fusion workloads while dramatically improving accuracy through hardware-optimized probabilistic algorithms",
+        "why_now": "Centralized ADAS architectures are emerging and need specialized fusion processing - we're enabling the transition"
+      },
+      "usp": {
+        "core_differentiation": "Only ASIL-D qualified hardware accelerator for real-time sensor fusion",
+        "defensible_advantages": [
+          "Hardware Kalman filtering",
+          "Probabilistic compute units",
+          "ASIL-D functional safety built-in"
+        ],
+        "proof_points": [
+          "3-5x power efficiency vs GPUs",
+          "20-30% accuracy improvement",
+          "ASIL-D qualification achieved"
+        ]
+      },
+      "competitive_positioning": {
+        "versus_incumbents": "GPUs are optimized for dense matrix operations, not the sparse, probabilistic patterns sensor fusion requires",
+        "versus_alternatives": "Software solutions can't meet real-time requirements; other accelerators lack automotive safety qualification",
+        "competitive_moats": [
+          "Probabilistic computing expertise",
+          "ASIL-D qualification",
+          "Automotive-specific algorithms"
+        ]
+      },
+      "value_proposition": {
+        "for_oems": [
+          "Enable L3+ regulatory approval",
+          "Reduce false alarms by 20-30%",
+          "Future-proof centralized architecture"
+        ],
+        "for_tier1s": [
+          "ASIL-D qualification handled",
+          "Proven sensor integration",
+          "Complete fusion algorithm library"
+        ],
+        "for_end_users": [
+          "More reliable autonomous features",
+          "Fewer false alarms and interventions",
+          "Smoother autonomous driving experience"
+        ]
+      },
+      "technical_differentiation": {
+        "architecture": "Specialized probabilistic compute units with dedicated Kalman filter accelerators optimized for sensor fusion workloads",
+        "performance": "Hardware-accelerated uncertainty propagation and multi-modal sensor correlation with 3-5x power efficiency",
+        "integration": "ASIL-D qualified solution integrates with centralized ADAS compute platforms and major sensor ecosystems"
+      },
+      "messaging_pillars": [
+        {
+          "pillar": "Make Sensor Fusion Reliable",
+          "supporting_points": [
+            "20-30% accuracy improvement",
+            "Reduced false positives",
+            "Hardware-optimized algorithms"
+          ],
+          "target_audience": "Technical"
+        },
+        {
+          "pillar": "Enable True L3+ Autonomy",
+          "supporting_points": [
+            "ASIL-D safety qualification",
+            "Regulatory approval ready",
+            "Centralized architecture enabled"
+          ],
+          "target_audience": "Executive"
+        },
+        {
+          "pillar": "Purpose-Built for Fusion",
+          "supporting_points": [
+            "Specialized probabilistic computing",
+            "Hardware Kalman filtering",
+            "3-5x efficiency improvement"
+          ],
+          "target_audience": "OEM"
+        },
+        {
+          "pillar": "Safety-First Integration",
+          "supporting_points": [
+            "ASIL-D qualified",
+            "Built-in redundancy",
+            "Proven automotive workflows"
+          ],
+          "target_audience": "Tier1"
+        }
+      ],
+      "elevator_pitch": "We've created the automotive industry's first ASIL-D qualified sensor fusion accelerator with hardware-optimized probabilistic computing that improves fusion accuracy by 20-30% while delivering 3-5x better power efficiency than GPU solutions.",
+      "tagline_options": [
+        "Fusion. Perfected.",
+        "Trust Through Technology.",
+        "Precise. Powerful. Proven."
+      ]
+    }
+  ],
+  "confidence": "High",
+  "confidence_rationale": "All three opportunities address clear, quantified market needs with defensible technical approaches. The positioning leverages specific performance claims and automotive qualification requirements that competitors can't easily replicate. Each solution targets a distinct bottleneck in the ADAS processing pipeline with measurable value propositions."
+}

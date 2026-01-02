@@ -1,0 +1,152 @@
+{
+  "opportunities": [
+    {
+      "name": "4D Radar Signal Processing ASIC",
+      "rank": 1,
+      "unmet_need": "Next-generation 4D imaging radars require 10x more computational power than current automotive SoCs can deliver, forcing OEMs to use inefficient CPU/GPU implementations that consume 5-10x more power and limit real-time processing",
+      "target_segment": "Radar",
+      "technical_gap": "Current automotive SoCs lack dedicated hardware accelerators for complex FFT processing chains, multi-dimensional Doppler analysis, and interference mitigation required by 4D radar systems generating millions of point clouds",
+      "asic_approach": {
+        "compute_strategy": "Specialized radar DSP with dedicated FFT engines, configurable for 1024-2048 point transforms",
+        "power_target": "5-8W total system power",
+        "integration_level": "Integrated radar-on-chip solution",
+        "cost_position": "Premium positioning initially, cost-optimized variants for mass market"
+      },
+      "key_differentiators": [
+        "10-20x better power efficiency vs GPU implementations for radar workloads",
+        "Real-time processing of 4D point clouds with <10ms latency",
+        "Automotive-grade (AEC-Q100) with built-in functional safety features"
+      ],
+      "market_size": {
+        "addressable_market_usd_millions": 450,
+        "market_share_target_percent": 25,
+        "revenue_potential_range_usd_millions": "90-135"
+      },
+      "execution": {
+        "time_to_market_months_range": "24-30",
+        "development_cost_range_usd_millions": "15-25",
+        "estimated_roi_range": "4-6x over 5 years",
+        "risk_level": "Medium"
+      },
+      "best_positioned_innovators": [
+        "Specialized radar semiconductor companies (e.g., Arbe Robotics)",
+        "Traditional automotive Tier-1 suppliers with radar expertise (e.g., Continental, Bosch)"
+      ],
+      "supporting_evidence": [
+        {
+          "source": "BMW Group Technical Conference 2023",
+          "claim": "4D radar processing requires 10x more computational power than traditional radar, creating bottlenecks in current SoC architectures"
+        },
+        {
+          "source": "Continental Automotive",
+          "claim": "4D imaging radar will be standard in premium vehicles by 2025, requiring new generations of radar signal processors with AI acceleration capabilities"
+        }
+      ]
+    },
+    {
+      "name": "Multi-Camera ISP Memory-Optimized ASIC",
+      "rank": 2,
+      "unmet_need": "Processing 8-12 high-resolution cameras simultaneously creates memory bandwidth bottlenecks (>40 Gbps requirement) that current automotive SoCs cannot sustain, forcing frame drops and preventing real-time 360\u00b0 perception for L3 automation",
+      "target_segment": "Camera",
+      "technical_gap": "Standard DDR interfaces in automotive SoCs create memory contention when processing multiple 4K/8K camera streams simultaneously, as bandwidth scales linearly with camera count but shared memory architecture doesn't",
+      "asic_approach": {
+        "compute_strategy": "Distributed ISP architecture with on-chip memory hierarchy and compression",
+        "power_target": "12-18W for 8-camera system",
+        "integration_level": "Discrete multi-camera processing unit",
+        "cost_position": "Cost-optimized for mass market L2+ systems"
+      },
+      "key_differentiators": [
+        "Dedicated memory channels per camera with lossless compression",
+        "Real-time processing of 8x 4K cameras at 30fps without frame drops",
+        "50% lower system cost vs multi-SoC architectures"
+      ],
+      "market_size": {
+        "addressable_market_usd_millions": 680,
+        "market_share_target_percent": 20,
+        "revenue_potential_range_usd_millions": "110-170"
+      },
+      "execution": {
+        "time_to_market_months_range": "18-24",
+        "development_cost_range_usd_millions": "12-18",
+        "estimated_roi_range": "5-8x over 4 years",
+        "risk_level": "Low"
+      },
+      "best_positioned_innovators": [
+        "Camera sensor companies with ISP expertise (e.g., Sony, OmniVision)",
+        "Automotive vision specialists (e.g., Mobileye, Ambarella)"
+      ],
+      "supporting_evidence": [
+        {
+          "source": "Continental ADAS Architecture Presentation 2023",
+          "claim": "Managing data from multiple high-resolution cameras simultaneously requires 40+ Gbps throughput with <50ms latency"
+        },
+        {
+          "source": "IEEE Transactions on Vehicular Technology",
+          "claim": "8K resolution enables 40% improvement in object detection accuracy at distances beyond 150 meters"
+        }
+      ]
+    },
+    {
+      "name": "Edge AI Sensor Fusion Accelerator",
+      "rank": 3,
+      "unmet_need": "Heterogeneous sensor fusion requires specialized probabilistic computing for Kalman filtering and uncertainty propagation that current GPU architectures handle inefficiently, limiting fusion accuracy and increasing false positive/negative rates by 20-30%",
+      "target_segment": "Sensor Fusion/AI Compute",
+      "technical_gap": "Current automotive GPUs optimize for dense matrix operations but sensor fusion requires sparse, irregular compute patterns with heavy branching that don't map efficiently to SIMD architectures",
+      "asic_approach": {
+        "compute_strategy": "Specialized probabilistic compute units with dedicated Kalman filter accelerators",
+        "power_target": "8-12W for full fusion pipeline",
+        "integration_level": "Integrated with central ADAS compute platform",
+        "cost_position": "Premium for L3+ systems, cost reduction path for L2+"
+      },
+      "key_differentiators": [
+        "Hardware-accelerated Kalman filtering and probabilistic reasoning",
+        "3-5x better power efficiency vs GPU implementations for fusion workloads",
+        "ASIL-D compliant with built-in redundancy and monitoring"
+      ],
+      "market_size": {
+        "addressable_market_usd_millions": 570,
+        "market_share_target_percent": 15,
+        "revenue_potential_range_usd_millions": "70-105"
+      },
+      "execution": {
+        "time_to_market_months_range": "30-36",
+        "development_cost_range_usd_millions": "20-30",
+        "estimated_roi_range": "3-5x over 6 years",
+        "risk_level": "High"
+      },
+      "best_positioned_innovators": [
+        "AI compute specialists with automotive focus (e.g., Qualcomm, NVIDIA)",
+        "Academic spinouts specializing in probabilistic computing"
+      ],
+      "supporting_evidence": [
+        {
+          "source": "IEEE Transactions on Vehicular Technology 2023",
+          "claim": "Multi-modal sensor fusion for automotive applications requires 15-20 TOPS of specialized compute, far exceeding current automotive SoC capabilities"
+        },
+        {
+          "source": "McKinsey Semiconductor Practice",
+          "claim": "Centralized compute architectures will account for 60% of new ADAS designs by 2027, up from 15% today"
+        }
+      ]
+    }
+  ],
+  "confidence": "High",
+  "confidence_rationale": "All three opportunities address validated technical bottlenecks with clear evidence from OEMs and Tier-1 suppliers. Market timing aligns with industry transition to L2+/L3 systems. Technical solutions are achievable with current semiconductor capabilities.",
+  "assumptions": [
+    {
+      "assumption": "4D radar adoption follows premium-to-mass market path similar to camera-based ADAS",
+      "risk_if_wrong": "Market size 30-40% smaller if adoption stalls in premium segment",
+      "validation_signal": "OEM announcements of 4D radar in 2025-2026 model years"
+    },
+    {
+      "assumption": "Camera resolution continues scaling to 8K as predicted by IEEE research",
+      "risk_if_wrong": "Multi-camera ISP opportunity diminished if resolution plateaus at 4K",
+      "validation_signal": "Sony/OmniVision 8K automotive sensor announcements"
+    },
+    {
+      "assumption": "Centralized compute architecture adoption accelerates as McKinsey predicts",
+      "risk_if_wrong": "Sensor fusion accelerator market fragmented across distributed architectures",
+      "validation_signal": "Major OEM platform announcements moving to centralized compute"
+    }
+  ]
+}

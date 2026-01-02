@@ -1,0 +1,31 @@
+{
+    "mcpServers": {
+      "uspto": {
+        "command": "python",
+        "args": ["-m", "mcp_servers.uspto_server"],
+        "description": "USPTO Patent Database - Search patents and analyze innovation trends"
+      },
+      "github": {
+        "command": "python",
+        "args": ["-m", "mcp_servers.github_server"],
+        "env": {
+          "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+        },
+        "description": "GitHub API - Search issues, repos, and analyze developer pain points"
+      },
+      "semantic_scholar": {
+        "command": "python",
+        "args": ["-m", "mcp_servers.semantic_scholar_server"],
+        "description": "Semantic Scholar API - Search academic papers and research"
+      }
+    },
+    "settings": {
+      "timeout": 30,
+      "max_retries": 3,
+      "rate_limit": {
+        "uspto": 10,
+        "github": 30,
+        "semantic_scholar": 100
+      }
+    }
+  }

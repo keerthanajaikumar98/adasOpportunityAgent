@@ -1,0 +1,296 @@
+{
+  "sources": [
+    {
+      "name": "IEEE Xplore Digital Library",
+      "category": "academic",
+      "url_pattern": "https://ieeexplore.ieee.org/search/searchresult.jsp",
+      "credibility": "High",
+      "information_type": "Technical papers on ADAS algorithms, semiconductor architectures, sensor fusion",
+      "update_frequency": "Daily/Weekly",
+      "access": "mixed",
+      "relevant_topics": [
+        "camera processing",
+        "radar processing",
+        "sensor fusion",
+        "technical specifications"
+      ],
+      "example_searches": [
+        "ADAS semiconductor market",
+        "automotive radar processing",
+        "camera ISP ADAS"
+      ],
+      "notes": "Focus on IEEE Transactions on Vehicular Technology, IEEE Transactions on Intelligent Transportation Systems"
+    },
+    {
+      "name": "SAE International Technical Papers",
+      "category": "academic",
+      "url_pattern": "https://www.sae.org/publications/technical-papers/",
+      "credibility": "High",
+      "information_type": "Industry-academic collaboration papers, automotive engineering standards",
+      "update_frequency": "Weekly",
+      "access": "subscription",
+      "relevant_topics": [
+        "technical specifications",
+        "OEM adoption",
+        "competitive landscape"
+      ],
+      "example_searches": [
+        "ADAS semiconductor integration",
+        "automotive compute platforms",
+        "sensor fusion architectures"
+      ],
+      "notes": "Most authoritative for automotive engineering standards and OEM perspectives"
+    },
+    {
+      "name": "arXiv Computer Science - Robotics",
+      "category": "academic",
+      "url_pattern": "https://arxiv.org/list/cs.RO/recent",
+      "credibility": "High",
+      "information_type": "Latest research in autonomous driving algorithms and architectures",
+      "update_frequency": "Daily",
+      "access": "public",
+      "relevant_topics": [
+        "sensor fusion",
+        "AI compute",
+        "camera processing"
+      ],
+      "example_searches": [
+        "autonomous driving semiconductor",
+        "ADAS neural networks",
+        "automotive AI chips"
+      ],
+      "notes": "Excellent for cutting-edge research, but verify implementation feasibility"
+    },
+    {
+      "name": "J.P. Morgan Equity Research",
+      "category": "financial",
+      "url_pattern": "https://www.jpmorgan.com/insights/research",
+      "credibility": "High",
+      "information_type": "Market forecasts, competitive analysis, financial projections",
+      "update_frequency": "Quarterly/Monthly",
+      "access": "subscription",
+      "relevant_topics": [
+        "market sizing",
+        "competitive landscape",
+        "OEM adoption"
+      ],
+      "example_searches": [
+        "Automotive semiconductor outlook",
+        "ADAS market forecast",
+        "Auto chip competitive dynamics"
+      ],
+      "notes": "Access via Bloomberg Terminal or direct institutional subscription"
+    },
+    {
+      "name": "Goldman Sachs Global Investment Research",
+      "category": "financial",
+      "url_pattern": "https://www.goldmansachs.com/insights/pages/global-investment-research.html",
+      "credibility": "High",
+      "information_type": "Sector analysis, technology adoption curves, TAM/SAM analysis",
+      "update_frequency": "Quarterly",
+      "access": "subscription",
+      "relevant_topics": [
+        "market sizing",
+        "growth forecasts",
+        "competitive landscape"
+      ],
+      "example_searches": [
+        "Autonomous vehicle semiconductor content",
+        "ADAS silicon dollar content",
+        "Auto semiconductor TAM"
+      ],
+      "notes": "Particularly strong on semiconductor value chain analysis"
+    },
+    {
+      "name": "Strategy Analytics - Automotive Electronics",
+      "category": "financial",
+      "url_pattern": "https://www.strategyanalytics.com/access-services/automotive",
+      "credibility": "High",
+      "information_type": "Market forecasts, technology roadmaps, competitive benchmarking",
+      "update_frequency": "Quarterly",
+      "access": "subscription",
+      "relevant_topics": [
+        "market sizing",
+        "growth forecasts",
+        "technical specifications"
+      ],
+      "example_searches": [
+        "ADAS semiconductor forecast",
+        "Automotive radar chip market",
+        "Camera processor market"
+      ],
+      "notes": "Specialized automotive electronics focus with detailed semiconductor breakdowns"
+    },
+    {
+      "name": "NVIDIA Developer Documentation",
+      "category": "industry",
+      "url_pattern": "https://developer.nvidia.com/drive",
+      "credibility": "High",
+      "information_type": "Technical specifications, performance benchmarks, development tools",
+      "update_frequency": "Monthly",
+      "access": "public",
+      "relevant_topics": [
+        "AI compute",
+        "sensor fusion",
+        "technical specifications"
+      ],
+      "example_searches": [
+        "DRIVE AGX specifications",
+        "automotive AI compute benchmarks",
+        "ADAS neural network performance"
+      ],
+      "notes": "Leading platform for AI compute in ADAS - excellent technical depth"
+    },
+    {
+      "name": "Qualcomm Snapdragon Ride Platform",
+      "category": "industry",
+      "url_pattern": "https://www.qualcomm.com/products/automotive",
+      "credibility": "High",
+      "information_type": "Platform specifications, partnership announcements, technical whitepapers",
+      "update_frequency": "Quarterly",
+      "access": "public",
+      "relevant_topics": [
+        "competitive landscape",
+        "technical specifications",
+        "OEM adoption"
+      ],
+      "example_searches": [
+        "Snapdragon Ride specifications",
+        "automotive 5G connectivity",
+        "ADAS platform comparison"
+      ],
+      "notes": "Strong on connectivity and edge compute integration"
+    },
+    {
+      "name": "Mobileye Investor Relations",
+      "category": "industry",
+      "url_pattern": "https://ir.mobileye.com/",
+      "credibility": "High",
+      "information_type": "Market share data, customer wins, technology roadmaps",
+      "update_frequency": "Quarterly",
+      "access": "public",
+      "relevant_topics": [
+        "competitive landscape",
+        "market sizing",
+        "OEM adoption"
+      ],
+      "example_searches": [
+        "EyeQ chip adoption",
+        "ADAS market penetration",
+        "autonomous driving partnerships"
+      ],
+      "notes": "Market leader in vision-based ADAS - excellent for competitive benchmarking"
+    },
+    {
+      "name": "NXP Automotive Solutions",
+      "category": "industry",
+      "url_pattern": "https://www.nxp.com/applications/automotive",
+      "credibility": "High",
+      "information_type": "Radar processing technology, secure vehicle networking, reference designs",
+      "update_frequency": "Quarterly",
+      "access": "public",
+      "relevant_topics": [
+        "radar processing",
+        "technical specifications",
+        "competitive landscape"
+      ],
+      "example_searches": [
+        "automotive radar processors",
+        "77GHz radar solutions",
+        "secure automotive networking"
+      ],
+      "notes": "Leader in automotive radar processing and secure connectivity"
+    },
+    {
+      "name": "Continental AG Press Releases",
+      "category": "industry",
+      "url_pattern": "https://www.continental.com/en/press/",
+      "credibility": "High",
+      "information_type": "OEM partnerships, production volumes, technology milestones",
+      "update_frequency": "Weekly",
+      "access": "public",
+      "relevant_topics": [
+        "OEM adoption",
+        "competitive landscape",
+        "market sizing"
+      ],
+      "example_searches": [
+        "ADAS sensor production",
+        "automotive radar deployment",
+        "camera system partnerships"
+      ],
+      "notes": "Major Tier-1 supplier perspective on market adoption and volumes"
+    },
+    {
+      "name": "SAE J3016 Levels of Driving Automation",
+      "category": "standards",
+      "url_pattern": "https://www.sae.org/standards/content/j3016_202104/",
+      "credibility": "High",
+      "information_type": "Autonomous driving classification standards",
+      "update_frequency": "Annually",
+      "access": "public",
+      "relevant_topics": [
+        "technical specifications",
+        "OEM adoption"
+      ],
+      "example_searches": [
+        "Level 2+ ADAS requirements",
+        "autonomous driving standards",
+        "ADAS classification"
+      ],
+      "notes": "Fundamental standard for understanding ADAS/AD requirements and market segmentation"
+    },
+    {
+      "name": "ISO 26262 Functional Safety Standard",
+      "category": "standards",
+      "url_pattern": "https://www.iso.org/standard/68383.html",
+      "credibility": "High",
+      "information_type": "Safety requirements for automotive systems",
+      "update_frequency": "Multi-year cycles",
+      "access": "subscription",
+      "relevant_topics": [
+        "technical specifications",
+        "competitive landscape"
+      ],
+      "example_searches": [
+        "ASIL-D semiconductor requirements",
+        "automotive functional safety",
+        "ISO 26262 compliance"
+      ],
+      "notes": "Critical for understanding safety requirements that drive semiconductor specifications"
+    },
+    {
+      "name": "NHTSA Federal Motor Vehicle Safety Standards",
+      "category": "standards",
+      "url_pattern": "https://www.nhtsa.gov/laws-regulations/fmvss",
+      "credibility": "High",
+      "information_type": "US regulatory requirements for vehicle safety systems",
+      "update_frequency": "Annually",
+      "access": "public",
+      "relevant_topics": [
+        "technical specifications",
+        "OEM adoption"
+      ],
+      "example_searches": [
+        "automatic emergency braking requirements",
+        "blind spot monitoring standards",
+        "ADAS regulatory timeline"
+      ],
+      "notes": "Key for understanding regulatory drivers of ADAS adoption in US market"
+    }
+  ],
+  "source_summary": {
+    "total_sources": 14,
+    "by_category": {
+      "academic": 3,
+      "financial": 3,
+      "industry": 5,
+      "standards": 3
+    },
+    "public_access": 9,
+    "subscription_required": 5
+  },
+  "recommended_search_strategy": "Start with public academic sources (IEEE, arXiv, SAE) for technical foundation. Use financial research for market sizing and forecasts. Cross-reference with industry sources for real-world adoption data. Validate technical specifications against standards. Create alerts for quarterly earnings calls from key semiconductor vendors (NVDA, QCOM, INTC, MBLY) and Tier-1 suppliers (Continental, Bosch, Aptiv). Monitor patent filings through Google Patents for emerging technologies.",
+  "confidence": "High",
+  "confidence_rationale": "Sources represent authoritative voices across all required categories. Mix of technical depth (IEEE, SAE), market intelligence (financial research), real-world data (industry), and regulatory requirements (standards). Combination of free and subscription sources provides comprehensive coverage while being cost-effective for different research budgets."
+}

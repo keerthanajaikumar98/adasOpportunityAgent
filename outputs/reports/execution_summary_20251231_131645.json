@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "execution_time_seconds": 372.852956,
+    "execution_time_formatted": "6m 12s",
+    "start_time": "2025-12-31T13:16:45.903682",
+    "end_time": "2025-12-31T13:22:58.756638",
+    "agents_executed": 10,
+    "agents_failed": 0,
+    "apis_available": {
+      "uspto": false,
+      "github": false,
+      "semantic_scholar": false
+    },
+    "api_usage_stats": {
+      "uspto_calls": 0,
+      "github_calls": 0,
+      "semantic_scholar_calls": 0
+    }
+  },
+  "execution_log": [
+    {
+      "agent": "source_discovery",
+      "timestamp": "2025-12-31T13:17:27.213922",
+      "success": true,
+      "confidence": "High",
+      "data_sources": {}
+    },
+    {
+      "agent": "market_size",
+      "timestamp": "2025-12-31T13:17:48.878576",
+      "success": true,
+      "confidence": "High",
+      "data_sources": {}
+    },
+    {
+      "agent": "trends_simplification",
+      "timestamp": "2025-12-31T13:18:28.514771",
+      "success": true,
+      "confidence": "High",
+      "data_sources": {
+        "market_data": "available",
+        "patent_data": "unavailable"
+      }
+    },
+    {
+      "agent": "competitive_landscape",
+      "timestamp": "2025-12-31T13:19:10.467727",
+      "success": true,
+      "confidence": "High",
+      "data_sources": {}
+    },
+    {
+      "agent": "pain_point_extraction",
+      "timestamp": "2025-12-31T13:20:08.008091",
+      "success": true,
+      "confidence": "High",
+      "data_sources": {
+        "market_analysis": "available",
+        "github_issues": "unavailable"
+      }
+    },
+    {
+      "agent": "compute_architecture",
+      "timestamp": "2025-12-31T13:20:27.351432",
+      "success": true,
+      "confidence": "High",
+      "data_sources": {}
+    },
+    {
+      "agent": "bottleneck_diagnosis",
+      "timestamp": "2025-12-31T13:21:22.620688",
+      "success": true,
+      "confidence": "High",
+      "data_sources": {}
+    },
+    {
+      "agent": "gap_analysis",
+      "timestamp": "2025-12-31T13:22:01.137885",
+      "success": true,
+      "confidence": "High",
+      "data_sources": {}
+    },
+    {
+      "agent": "positioning_messaging",
+      "timestamp": "2025-12-31T13:22:55.359504",
+      "success": true,
+      "confidence": "High",
+      "data_sources": {}
+    },
+    {
+      "agent": "visualization_reporting",
+      "timestamp": "2025-12-31T13:22:58.756322",
+      "success": true,
+      "confidence": "Unknown",
+      "data_sources": {}
+    }
+  ],
+  "results_files": {
+    "source_discovery": "source_discovery_result_20251231_131645.json",
+    "market_size": "market_size_result_20251231_131645.json",
+    "trends_simplification": "trends_simplification_result_20251231_131645.json",
+    "competitive_landscape": "competitive_landscape_result_20251231_131645.json",
+    "pain_point_extraction": "pain_point_extraction_result_20251231_131645.json",
+    "compute_architecture": "compute_architecture_result_20251231_131645.json",
+    "bottleneck_diagnosis": "bottleneck_diagnosis_result_20251231_131645.json",
+    "gap_analysis": "gap_analysis_result_20251231_131645.json",
+    "positioning_messaging": "positioning_messaging_result_20251231_131645.json",
+    "visualization_reporting": "visualization_reporting_result_20251231_131645.json"
+  }
+}

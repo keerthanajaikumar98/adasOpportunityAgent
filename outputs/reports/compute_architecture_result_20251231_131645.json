@@ -1,0 +1,86 @@
+{
+  "camera_processing": {
+    "target_resolution": "8K (33MP) primary, 4K (8MP) surround cameras",
+    "frame_rate_fps": 30,
+    "processing_pipeline": [
+      "ISP preprocessing and noise reduction",
+      "Distortion correction and calibration",
+      "HDR tone mapping",
+      "Object detection preprocessing",
+      "Feature extraction for tracking",
+      "Compression for data transport"
+    ],
+    "compute_tops": "150-200 TOPS",
+    "memory_bandwidth_gbps": "200-300 Gbps",
+    "power_budget_w": "25-35W",
+    "key_algorithms": [
+      "YOLO/SSD object detection",
+      "Optical flow tracking",
+      "Semantic segmentation",
+      "Depth estimation",
+      "Lane detection"
+    ]
+  },
+  "radar_processing": {
+    "frequency_band": "77-81 GHz (4D imaging radar)",
+    "processing_requirements": [
+      "2D/3D FFT for range-doppler processing",
+      "CFAR (Constant False Alarm Rate) detection",
+      "Angle estimation via beamforming",
+      "Point cloud generation and clustering",
+      "Multi-path interference mitigation",
+      "Doppler ambiguity resolution"
+    ],
+    "compute_tops": "50-80 TOPS",
+    "latency_target_ms": "20-50ms",
+    "power_budget_w": "15-25W"
+  },
+  "sensor_fusion": {
+    "input_sources": [
+      "8x cameras (front long-range, surround view)",
+      "5x radar (front long-range, corner short-range)",
+      "IMU/GPS",
+      "V2X communication",
+      "HD map data"
+    ],
+    "fusion_approach": "centralized",
+    "compute_tops": "100-150 TOPS",
+    "memory_gb": "16-32 GB LPDDR5",
+    "real_time_requirements": "Complete perception pipeline <100ms, critical path <50ms for emergency braking",
+    "power_budget_w": "20-30W"
+  },
+  "ai_ml_inference": {
+    "target_models": [
+      "Transformer-based vision models",
+      "CNN for object detection/classification",
+      "RNN for trajectory prediction",
+      "Occupancy grid networks",
+      "Multi-task learning models"
+    ],
+    "precision_requirements": [
+      "INT8",
+      "FP16"
+    ],
+    "typical_model_size": "100MB-1GB per model",
+    "inference_latency_ms": "10-30ms",
+    "batch_processing": "yes",
+    "compute_tops": "200-400 TOPS",
+    "power_efficiency_tops_per_watt": "8-12 TOPS/W"
+  },
+  "architecture_recommendations": {
+    "preferred_approach": "Centralized domain controller with heterogeneous compute: dedicated NPU for AI inference (400+ TOPS), specialized DSP clusters for radar processing, high-bandwidth ISPs for camera preprocessing, and ARM cores for sensor fusion algorithms",
+    "key_trade_offs": [
+      "Centralized vs distributed: Higher bandwidth requirements but better fusion accuracy",
+      "Power vs performance: 4D radar and 8K cameras drive significant compute needs",
+      "Cost vs capability: Premium features require expensive high-performance SoCs"
+    ],
+    "critical_bottlenecks": [
+      "Memory bandwidth for multi-camera 8K processing",
+      "Real-time constraints for safety-critical functions",
+      "Thermal management in compact automotive enclosures",
+      "4D radar signal processing complexity"
+    ]
+  },
+  "confidence": "High",
+  "confidence_rationale": "Requirements are based on current industry trends from major OEMs and Tier 1s, validated by actual deployment timelines. The 4D radar transition and 8K camera adoption are well-documented industry directions with specific compute requirements published by leading suppliers like Continental and Bosch."
+}
